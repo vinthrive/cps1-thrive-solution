@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Maven Pro', sans-serif !important; 
+}
+.container{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+nav, .row-spacer{
+	height: 100px;
+}
+
+#btn-subscribe{
+	background-color: #FEFE33;
+	/* #E3A90E;*/
+}	
+
+.footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.fas{
+	font-size: xx-large;
+	margin-left: 10px;
+}
+
+.social-links{
+	max-height: 70px;
+	min-height: 70px;
+	margin-right: 10px;
+}
