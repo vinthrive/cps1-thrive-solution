@@ -10,25 +10,116 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, p{
-	font-family: 'Maven Pro', sans-serif !important; 
+	font-family: 'Roboto', sans-serif !important;
 }
+
+.row{
+	margin: 0;
+	padding: 0;
+}
+
 .container{
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
-	max-height: 100%;
+	/*max-height: 100%;*/
 }
 
-/*.row{
-	width: 100%;
-}*/
 .row-spacer{
 	height: 100px;
 }
 
-.btn{
-	background-color: #FEFE33;
+.lp-container{
+	background-color: #777777;
+}
+
+.lp-container *{
+	z-index: 50;
 }	
+
+.lp-container::after {
+	content: "";
+	background: linear-gradient(to bottom, rgba(7, 13, 28, 0.65) 0%, rgba(5, 10, 22, 0.65) 22%, rgba(0, 0, 0, 0) 100%), url(../images/lp-bg.jpeg);
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+.lp-banner{
+
+}
+
+#lp-banner-tough{
+	color: #FB3F3F;
+}
+
+#lp-banner-fresh{
+	color: #00FF18;
+}
+
+#banner{
+	/*background-color: #B89A54;*/
+	/*opacity: 0.3;*/
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+	padding-left: 20px;	
+}
+#company-logo-container{
+	
+}
+.company-logo{
+	font-family: 'Noto Serif SC', serif !important;
+	
+}
+
+.logo-color-text{
+	color: #FEDD00;
+	font-size: 6em;
+}
+
+.logo-color-text-solution{
+	color: #fff;
+	font-size: 3.5em;	
+}
+
+.logo-hr{
+	width: 185px;
+    border: 4px solid black;
+    border-radius: 2px;
+	margin: 0 auto;	
+}
+
+#lp-btn-learn{
+	background-color: rgb(3,23,126);
+	border-radius: 100%;
+	padding: 40px;
+	border: 5px solid #FFF;
+	color: #fff;
+}	
+
+#lp-btn-learn:hover{
+	background-color: #fff;
+	border: 5px solid rgb(3,23,126);
+	color: rgb(3,23,126);	
+}
+
+#lp-btn-learn-text{
+		
+}
+
+/*#lp-btn-learn-text:hover{
+	
+}*/
 
 .footer{
 	padding-top: 10px;
@@ -80,7 +171,7 @@ h1, h2, h3, h4, h5, h6, p{
 	.row-spacer{
 		height: 20px;
 	}
-
+/*
 	#company-logo-container{
 		max-height: 300px;
 		margin-top: 20px;
@@ -90,7 +181,7 @@ h1, h2, h3, h4, h5, h6, p{
 		height: 100%;
 		width: 70%;
 
-	}
+	}*/
 
 }
 
@@ -100,7 +191,7 @@ h1, h2, h3, h4, h5, h6, p{
 		height: 125px;
 	}
 
-	#company-logo-container{
+	/*#company-logo-container{
 		max-height: 300px;
 		margin-top: 20px;
 	}
@@ -108,7 +199,7 @@ h1, h2, h3, h4, h5, h6, p{
 	#company-logo{
 		height: 100%;
 		width: 70%;
-
+*/
 	}
 
 }
