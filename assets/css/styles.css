@@ -9,9 +9,9 @@ body{
 	
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, a{
 	font-family: 'Roboto', sans-serif !important;
-	/*font-family: 'Noto Serif SC', serif !important;*/
+	color: #b89a54;
 }
 
 .row{
@@ -23,10 +23,27 @@ h1, h2, h3, h4, h5, h6, p{
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
-	/*max-height: 100%;*/
 }
 
+.main-pages{
+	color: #b89a54;
+}
 
+.navbar{
+	
+}
+
+.small-company-logo-container{
+	width: 100%;
+	height: 150px;
+	background-color: #14294E;
+}
+
+.small-company-logo{
+	width: 50%;
+	height: 100%;
+}
+/* Landing page */
 .lp-container *{
 	z-index: 50;
 }	
@@ -54,6 +71,10 @@ h1, h2, h3, h4, h5, h6, p{
 	background-color: #14294E;
 }
 
+.lp-banner-text{
+	color: #FFF;
+}
+
 #lp-banner-tough{
 	color: #FB3F3F;
 }
@@ -70,27 +91,6 @@ h1, h2, h3, h4, h5, h6, p{
 	padding-right: 20px;
 	padding-left: 20px;	
 }
-#company-logo-container{
-	
-}
-
-
-.logo-color-text{
-	color: #FEDD00;
-	font-size: 6em;
-}
-
-.logo-color-text-solution{
-	color: #fff;
-	font-size: 3.5em;	
-}
-
-.logo-hr{
-	width: 185px;
-    border: 4px solid black;
-    border-radius: 2px;
-	margin: 0 auto;	
-}
 
 #lp-btn-learn{
 	background-color: rgb(3,23,126);
@@ -106,26 +106,8 @@ h1, h2, h3, h4, h5, h6, p{
 	color: rgb(3,23,126);	
 }
 
-#lp-btn-learn-text{
-		
-}
-
-.footer{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 0;
-	padding-left: 0;
-}
-
-.fas{
-	font-size: x-large;
-	padding-left: 20px;
-}
-
-.social-links{
-	max-height: 60px;
-	min-height: 60px;
-	
+#lp-btn-learn:hover>h1{
+	color: rgb(3,23,126);	
 }
 
 
@@ -136,22 +118,14 @@ h1, h2, h3, h4, h5, h6, p{
 
 }
 
+/* HOME */
+
 /* Mobile Styles*/
 @media only screen and (max-width: 767px){
 	.row-spacer{
 		height: 0px;
 	}
 
-/*	#company-logo-container{
-		max-height: 200px;
-		margin-top: 10px;
-	}
-
-	#company-logo{
-		height: 100%;
-		width: 70%;
-
-	}*/
 }
 
 /*Tablet Styles*/
@@ -159,17 +133,6 @@ h1, h2, h3, h4, h5, h6, p{
 	.row-spacer{
 		height: 0px;
 	}
-
-/*	#company-logo-container{
-		max-height: 300px;
-		margin-top: 20px;
-	}
-
-	#company-logo{
-		height: 100%;
-		width: 70%;
-
-	}*/
 
 }
 
