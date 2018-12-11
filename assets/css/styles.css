@@ -187,8 +187,8 @@ footer>div{
 }
 
 .home-carousel{
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-top: 40px;
+	margin-bottom: 70px;
 }
 
 .feature-icon{
@@ -235,6 +235,10 @@ footer>div{
 		height: 0px;
 	}
 
+	.nav-link{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
 	.carousel-item{
 		height: 400px;
 	}
