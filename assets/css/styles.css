@@ -32,7 +32,7 @@ p, a{
 	max-width: 100%;
 }
 
-.main-pages{
+.text-gold{
 	color: #b89a54;
 }
 
@@ -81,6 +81,13 @@ footer>div{
 	transform: translateY(-50%);
 } 
 
+.custom-btn{
+	background: linear-gradient(to bottom, #edb113 55%,#ce9602 100%);
+}
+.custom-btn:hover{
+	background: #ce9602;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ce9602), color-stop(100%,#ac7d01)); /* Chrome,Safari4+ */
+}
 /* Landing page */
 .lp-container *{
 	z-index: 50;
@@ -184,6 +191,10 @@ footer>div{
 
 .carousel-caption>h3{
 	font-size: 2.5rem;
+}
+
+#customer-satisfaction{
+	opacity: 1;
 }
 
 .home-carousel{
