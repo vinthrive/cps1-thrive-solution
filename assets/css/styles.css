@@ -194,7 +194,7 @@ footer>div{
 }
 
 #customer-satisfaction{
-	opacity: 1;
+	opacity: .8;
 }
 
 .home-carousel{
@@ -309,6 +309,10 @@ footer>div{
 	#copyright{
 		font-size: .5rem;
 		text-align: left !important;
+	}
+
+	.about-title > div > div > p, .mission-vision > div > div > p{
+		font-size: 1em;
 	}
 }
 
