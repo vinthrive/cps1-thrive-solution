@@ -22,11 +22,11 @@ p, a{
 }
 
 header{
-	margin-bottom: 10px;
+	
 }
 
 main{
-	margin-top: 40px;
+	
 }
 
 .row{
@@ -45,12 +45,17 @@ main{
 }
 
 .navbar{
-	
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 
 .nav-pills>li>a:hover {
-	background-color: #14294E;
-	color: #FFF;
+	/*background-color: #14294E;*/
+	/*color: #FFF;*/
+	color: #14294E;
+	border: 1px solid #14294E;
+	border-radius: 0.25rem;
+
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -69,17 +74,11 @@ main{
 
 footer{
 	background: url(../images/footer-texture.gif) repeat;	
-	height: 200px;
-	/*margin-top: 100px;*/
+	height: 90px;
 }
 
 footer>div{
 	height: 100%;
-}
-#footer-company-logo{
-	position: relative;	
-	top: 50%;
-	transform: translateY(-50%);	
 }
 
 #copyright{
@@ -214,10 +213,13 @@ footer>div{
 
 .home-carousel{
 	margin-bottom: 70px;
+	width: 100%;
 }
 
 .home-features{
+	padding-top: 	10px;
 	margin-bottom: 100px;
+	/*background-color: #CFCCCC;*/
 }
 
 .feature-icon{
@@ -252,14 +254,32 @@ footer>div{
 }
 
 .feature-header{
-	height: 80px;
+	height: 70px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 /* ABOUT PAGE*/
+.about-title::after {
+	content: "";
+	background: linear-gradient(to bottom, rgba(7, 13, 28, 0.65) 0%, rgba(5, 10, 22, 0.65) 22%, rgba(0, 0, 0, 0) 100%), url(../images/team-3.jpeg);
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+}
+
 .about-main{
-	background-color: #777777;
+	background-color: #14294E;
 }
 
 .about-title > div > div > h1, .mission-vision > div > div > h1{
@@ -269,7 +289,6 @@ footer>div{
 .about-title > div > div > p, .mission-vision > div > div > p{
 	font-size: 1.2em;
 }
-
 
 /* Contact*/
 .contact-input{
@@ -331,7 +350,7 @@ footer>div{
 	}	
 
 	.feature-header{
-		height: 30px;
+		height: 100%;
 	}
 
 	#copyright{
@@ -341,6 +360,14 @@ footer>div{
 
 	.about-title > div > div > p, .mission-vision > div > div > p{
 		font-size: 1em;
+	}
+
+	iframe{
+		width: 100%;
+	}
+
+	.contact-visit{
+		margin-top: 10px;
 	}
 }
 
@@ -376,7 +403,7 @@ footer>div{
 	}	
 
 	.feature-header{
-		height: 30px;
+		height: 100%;
 	}
 
 	#copyright{
@@ -388,6 +415,13 @@ footer>div{
 		font-size: 1em;
 	}
 
+	iframe{
+		width: 100%;
+	}
+
+	.contact-visit{
+		margin-top: 10px;
+	}	
 }
 
 /*Desktop Styles*/
