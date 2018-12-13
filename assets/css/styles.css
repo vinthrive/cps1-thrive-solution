@@ -151,7 +151,8 @@ footer>div{
 
 #lp-btn-learn:hover{
 	background-color: #fff;
-	border: 10px solid rgb(3,23,126);
+	border: 5px solid rgb(3,23,126);
+	border-radius: 90%;
 	color: rgb(3,23,126);	
 }
 
