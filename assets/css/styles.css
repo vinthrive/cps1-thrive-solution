@@ -120,6 +120,7 @@ footer>div{
 
 .lp-banner{
 	background-color: #14294E;
+	padding: 50px 20px 50px 20px;
 }
 
 .lp-banner-text{
@@ -170,14 +171,14 @@ footer>div{
 
 /* HOME */
 .carousel-item{
-	height: 600px;
-	background-color: #7A7878;
+	height: 550px;
+	/*background-color: #7A7878;*/
+	background-color: black;
 }
 
 .carousel-item>.d-block{
 	height: 100%;
-	width: 100%;
-	opacity: 0.3;
+	opacity: 0.6;
 	transition: all 8s;
 }
 
@@ -187,7 +188,10 @@ footer>div{
 }
 
 .carousel-caption>*{
-	color: #14294E;
+	/*color: #14294E;*/
+	/*color: rgb(215,180,61);*/
+	color: #F6CD2A;
+	/*color: #342609;*/
 }
 
 .carousel-caption{
@@ -209,12 +213,14 @@ footer>div{
 }
 
 #customer-satisfaction{
-	opacity: .8;
+	opacity: 1;
 }
 
 .home-carousel{
 	margin-bottom: 70px;
-	width: 100%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .home-features{
@@ -261,7 +267,17 @@ footer>div{
 }
 
 /* ABOUT PAGE*/
-.about-title::after {
+.about-container *{
+	z-index: 50;
+}	
+
+
+.about-main{
+	background-color: #14294E;
+	position: relative;
+}
+
+.about-main::after {
 	content: "";
 	background: linear-gradient(to bottom, rgba(7, 13, 28, 0.65) 0%, rgba(5, 10, 22, 0.65) 22%, rgba(0, 0, 0, 0) 100%), url(../images/team-3.jpeg);
 
@@ -271,16 +287,12 @@ footer>div{
 	background-attachment: fixed;
 	position: absolute;
 
-	opacity: 0.3;
+	opacity: 0.2;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 1000;
-}
-
-.about-main{
-	background-color: #14294E;
+	z-index: 10;
 }
 
 .about-title > div > div > h1, .mission-vision > div > div > h1{
@@ -324,6 +336,10 @@ footer>div{
 	.row-spacer{
 		height: 0px;
 	}
+  
+    .lp-banner h1{
+    	font-size: 1.5rem;
+    }
 
 	.small-company-logo-container{
 		margin: 0 auto;
@@ -377,6 +393,10 @@ footer>div{
 	.row-spacer{
 		height: 0px;
 	}
+
+    .lp-banner h1{
+    	font-size: 2rem;
+    }
 
 	.small-company-logo-container{
 		margin: 0 auto;
